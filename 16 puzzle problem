@@ -1,0 +1,13 @@
+Statement of the problem : Implementing 16 puzzle problem using branch and bound.
+branch and bound(puzzle)
+input    :   Initial configuration of the puzzle with one misplaced position.
+output  : goal configuration of the puzzle with  all  numbers in their respective places.
+
+Step 0 : Possible movements (left ,right ,up ,down) of the empty box in the initial configuration are checked.
+Step 1 : Apply heuristics, c(x) = f(x) + g(x),to check the estimate cost towards the solution .where f(x) = distance from initial path, 
+         g(x) = no of misplaced positions.
+Step 2 : Choose the heuristic with minimum cost and branch the configuration  and bound all other remaining configurations.
+Step 3 : Repeat the heuristics on the branched state if the goal configuration is not achieved.
+Step 4 : while applying the heuristics don’t consider the counter movements.
+Step 5 : If g(x)=0,the no of misplaced solutions are zero , then we arrived at the final configuration of the puzzle.
+
