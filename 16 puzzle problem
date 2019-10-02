@@ -1,6 +1,6 @@
 Statement of the problem : Implementing 16 puzzle problem using branch and bound.
 branch and bound(puzzle)
-input    :   Initial configuration of the puzzle with one misplaced position.
+input   : Initial configuration of the puzzle with one misplaced position.
 output  : goal configuration of the puzzle with  all  numbers in their respective places.
 
 Step 0 : Possible movements (left ,right ,up ,down) of the empty box in the initial configuration are checked.
